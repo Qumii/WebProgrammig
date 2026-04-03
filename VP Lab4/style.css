@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sec1 {
+  width: 100%;
+  height: 120vh;
+  background-color: rgb(230, 209, 255);
+}
+.backg {
+  /* background-image: url(/iron-man_3840x2160_xtrafondos.com.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  width: 90%;
+  height: 90vh;
+  margin-left: 70px;
+  position: absolute;
+}
+.abs {
+  /* background-image: url(/iron-man_3840x2160_xtrafondos.com.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  position: absolute;
+  width: 30%;
+  height: 50vh;
+  margin: 0px 150px;
+}
+.backg img {
+  border-radius: 20px;
+}
+.abs img {
+  border-radius: 20px;
+}
+.txt {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  width: 30%;
+  margin-left: 900px;
+  }
+.txt h1 {
+  font-size: 50px;
+}
+.txt p {
+  font-size: 20px;
+}
+
+.txt button {
+  width: 120px;
+  height: 40px;
+  background: plum;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+.sec2 {
+  width: 100%;
+  height: 100vh;
+}
+.sec2 .icons {
+  display: flex;
+  gap: 500px;
+}
+.prot h1 {
+  font-size: 50px;
+  padding: 30px 100px;
+}
+.icons p {
+  font-size: 30px;
+  padding: 35px 100px;
+}
+.sec3 {
+  width: 100%;
+  height: 70v;
+  display: flex;
+  gap: 500px;
+}
+.txtt{
+    font-size: 30px;
+    padding: 0 100px;
+}
+
+.daire{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    margin: 30px 0;
+}
+.card{
+    width: 30%;
+    height: 230px;
+    margin-right: 0;
+    background-color: rgb(147, 55, 252);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.card button{
+    width: 120px;
+height: 40px;
+border-radius: 20px;
+background: none;
+border: 2px solid white;
+color: white;
+margin: 20px 0;
+
+}
