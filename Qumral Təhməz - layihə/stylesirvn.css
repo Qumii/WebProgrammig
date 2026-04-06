@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(22, 112, 215, 0.4);
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    /*yuxaridaki none kodu yazinin alitindaki mavi xetti silir. */
+    font-size: 30px;
+    font-family: sans-serif;
+    /* burdaki sans-serif kod deyill font adidir. istediyin fontu qoya bilersen ferqi yoxdu*/
+    color: #f2f2f2;
+}
+
+ul li:hover {
+    background-color: rgba(161, 59, 230, 0.4);
+    transition: 0.6s;
+    height: 10vh;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    /*list style ise ul icinde olanlar var e qeydiyyat fln onlarin qabagindaki noqteleri silir.*/
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.navbar ul li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+
+.active,
+.navbar ul li .navbar ul li a:hover {
+    background: #ff6e00;
+}
+
+.bolgeler ul li:hover {
+    background-color: rgba(161, 59, 230, 0.4);
+    transition: 0.6s;
+    height: 6.9vh;
+}
+
+#dp-bolge {
+    background-color: rgba(22, 112, 215, 0.4);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.bolgeler:hover #dp-bolge {
+    display: block;
+}
+
+#dp-abs {
+    background-color: rgba(173, 216, 230, 0.726);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.abs:hover #dp-abs {
+    display: block;
+}
+
+#dp-simal {
+    background-color: rgba(0, 128, 0, 0.781);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.simal:hover #dp-simal {
+    display: block;
+}
+
+#dp-cenub {
+    background-color: rgba(153, 205, 50, 0.774);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.cenub:hover #dp-cenub {
+    display: block;
+}
+
+#dp-qerb {
+    background-color: rgba(222, 184, 135, 0.76);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.qerb:hover #dp-qerb {
+    display: block;
+}
+
+#dp-aran {
+    background-color: rgba(255, 166, 0, 0.726);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.aran:hover #dp-aran {
+    display: block;
+}
+
+#dp-seki {
+    background-color: rgba(165, 42, 42, 0.719);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.seki:hover #dp-seki {
+    display: block;
+}
+
+#dp-sirvan {
+    background-color: rgba(119, 136, 153, 0.74);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.sirvan:hover #dp-sirvan {
+    display: block;
+}
+
+#dp-qarabag {
+    background-color: rgba(255, 192, 203, 0.699);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.qarabag:hover #dp-qarabag {
+    display: block;
+}
+
+#dp-naxch {
+    background-color: rgba(65, 105, 225, 0.692);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.naxch:hover #dp-naxch {
+    display: block;
+}
+
+.img-isma img {
+    width: 40%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 3%;
+}
+
+.isma {
+    margin-left: 45%;
+    margin-top: -25%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-qob img {
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 9%;
+    border-radius: 3%;
+}
+
+.qob {
+    margin-left: 45%;
+    margin-top: -25%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-agsu img {
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 15%;
+    border-radius: 3%;
+}
+
+.agsu {
+    margin-left: 45%;
+    margin-top: -22%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
