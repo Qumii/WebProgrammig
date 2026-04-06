@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Max-Min</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Ədədləri daxil edin:</h2>
+<input type="text" id="numbersInput">
+<button onclick="findMinMax()">Min və Max tap</button>
+
+<p id="result"></p>
+
+<script>
+function findMinMax() {
+    const input = document.getElementById("numbersInput").value;
+    const numbers = input.split(',').map(Number);
+
+    if (!numbers.every(Number.isFinite)) {
+        document.getElementById("result").innerHTML = "Xahiş olunur yalnız ədəd daxil edin!";
+        return;
+    }
+
+   
+    let minimum = maximum = numbers[0];
+    for (let i = 1; i < numbers.length; i++) {
+        let item = numbers[i];
+        if (item < minimum) {
+            minimum = item;
+        } else if (item > maximum) {
+            maximum = item;
+        }
+    }
+
+
+    const resultText = "Minimum: " + minimum + "<br>Maksimum: " + maximum;
+    document.getElementById("result").innerHTML = resultText;
+}
+</script>
+
+</body>
+</html>
