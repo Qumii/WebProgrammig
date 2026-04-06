@@ -1,0 +1,63 @@
+.back{
+    width: 50%;
+    height: 90vh;
+    background-color: rgb(209, 179, 254);
+    margin-left: 20%;
+    padding: 40px;
+    
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.back p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+input{
+    border: none;
+    outline: 0px;
+    border-radius: 2px;
+   
+    
+}
+textarea{
+    border: none;
+    outline: 0px;
+    border-radius: 2px;
+}
+label{
+    font-size:17px;
+}
+span{
+    color: red;
+}
+.text{
+    border-bottom: 1px solid gray;
+}
+.back .tm {
+    color: rgb(145, 14, 239);
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse
+    
+}
+form button{
+    text-align: center;
+    margin: 2% 45%;
+    padding: 2%;
+    border: 1px solid gray;
+    background-color:  rgb(209, 179, 254);
+    border-radius: 5px;
+}
+table th label{
+    float: right;
+}
+td{
+    padding: 10px;
+}
+th{
+    padding: 10px;
+}
